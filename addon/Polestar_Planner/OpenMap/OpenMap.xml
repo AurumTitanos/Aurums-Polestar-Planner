@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Data/Reveal.lua"/>
+	<Script file="Data/Grade.lua"/>
+	<Script file="Data/Minimap.lua"/>
+	<Script file="Data/MinimapLOD.lua"/>
+	<Script file="Data/Caves.lua"/>
+	<Script file="Data/Gaps.lua"/>
+	<Script file="Data/Tones.lua"/>
+	<Script file="Data/ArtEdits.lua"/>
+	<Script file="Data/Labels.lua"/>
+	<Script file="Data/Banners.lua"/>
+	<Script file="Data/ZoneArt.lua"/>
+	<Script file="Stitch.lua"/>
+	<Script file="Close.lua"/>
+</Ui>

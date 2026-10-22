@@ -1,0 +1,4 @@
+node_modules/
+.dist/
+addon/Polestar_Planner/Media/
+*.log

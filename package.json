@@ -1,0 +1,11 @@
+{
+  "name": "aurums-polestar-planner",
+  "version": "0.1.11",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "description": "Unofficial in-game Lua adaptation of the Polestar Planner for WoW Forever",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "package": "python3 tools/package.py"
+  }
+}

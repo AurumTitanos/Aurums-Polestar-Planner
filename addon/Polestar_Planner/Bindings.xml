@@ -1,0 +1,16 @@
+<Bindings>
+	<Binding name="POLESTARPLANNER_LIVE" header="POLESTARPLANNER" category="ADDONS">
+		if PolestarPlanner then PolestarPlanner.Bindings.Live() end
+	</Binding>
+	<Binding name="POLESTARPLANNER_MINIMAP">
+		if PolestarPlanner then PolestarPlanner.Bindings.MiniMap() end
+	</Binding>
+	<!-- Compatibility IDs from the private bundled viewer. Stock 0.2.5 does
+	     not register them; keep existing keys without rewriting bindings. -->
+	<Binding name="POLESTAR_LIVE" category="ADDONS">
+		if PolestarPlanner then PolestarPlanner.Bindings.Live() end
+	</Binding>
+	<Binding name="POLESTAR_MINIMAP" category="ADDONS">
+		if PolestarPlanner then PolestarPlanner.Bindings.MiniMap() end
+	</Binding>
+</Bindings>

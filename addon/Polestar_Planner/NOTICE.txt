@@ -1,0 +1,18 @@
+Polestar Planner — unofficial community adaptation 0.1.11 (2026-10-22)
+
+The original Planner is by Fitz and The Polestar authors. This companion adapts
+it into an in-game Lua dashboard and movable compact map with Questie overlays.
+Modifications and public packaging: AurumTitanos, 2026. GPL-3.0-only; see LICENSE.
+Polestar, guide progress and optional Questie remain separately installed.
+
+OpenMap code/data: jiforever and OpenMap contributors, MIT, from mirror
+fitzforge/wowforever-openmap commit 849bac460b6ebcb110ef80fc27a6b08565069c74.
+Original notices are in OpenMap/LICENSE.txt and OpenMap/NOTICE.md.
+Maps/RouteStrokes.lua retains Cillian Berragan's Shortest Path Forever notice.
+
+No game artwork, UI media, fonts, guide content, personal macros or character
+saves are shipped. Client textures are referenced by ID; installed Polestar
+supplies UI media. OpenMap supplies its own optional stitched artwork. An
+optional local mask generator is included in the public source repository.
+Full credits, corresponding source and policy notes:
+https://github.com/AurumTitanos/Aurums-Polestar-Planner

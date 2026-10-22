@@ -1,0 +1,34 @@
+## Interface: 16001
+## Title: Polestar Planner
+## Notes: Unofficial community companion: live Planner and small terrain map for Polestar.
+## Author: AurumTitanos; adapted from Fitz and the Polestar authors; OpenMap contributors
+## X-License: GPL-3.0-only
+## Version: 0.1.11
+## Category: Quests
+## IconTexture: Interface\AddOns\Polestar\Media\UI\logo
+## Dependencies: Polestar
+## OptionalDeps: Questie, OpenMap, EllesmereUI, ForeverDungeonScout
+## SavedVariables: PolestarPlannerDB
+
+Bootstrap.lua
+Adapter.lua
+UI\QuestDialog.lua
+Theme\Theme.xml
+UI\NpcAction.lua
+Maps\RouteStrokes.lua
+Maps\Regions.lua
+UI\LiveTerrain.lua
+UI\LiveInstanceMaps.lua
+UI\LiveRegions.lua
+UI\LiveObjectives.lua
+UI\LiveServices.lua
+UI\LiveQuestie.lua
+OpenMap\OpenMap.xml
+UI\LiveOpenMap.lua
+UI\LiveMap.lua
+UI\LiveCharacter.lua
+UI\LiveDashboard.lua
+UI\LiveMiniMap.lua
+UI\TravelStatus.lua
+Commands.lua
+
