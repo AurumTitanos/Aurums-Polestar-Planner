@@ -1,8 +1,7 @@
 # Publication and addon-policy review
 
-Reviewed **2026-10-22** for this source export. This is a maintainer's source
-review, not legal advice, a Blizzard certification, or a promise against future
-API/policy changes.
+Policy and licensing notes for **0.1.11**, reviewed **2026-10-22**.
+This is an unofficial addon; Blizzard has not certified this release.
 
 ## Blizzard addon rules
 
@@ -15,9 +14,9 @@ reviewed companion presents guide/map data through WoW APIs. Its NPC-target
 button requires a user click and uses a secure action template; it does not
 perform unattended movement, combat or quest acceptance. Quest-dialog hooks
 observe events for local diagnostics rather than selecting or accepting quests.
-No network telemetry or automatic chat/addon-message sending was found in the
-shipped companion. No extracted Blizzard texture assets are bundled. User-supplied gameplay
-screenshots document the interface and retain third-party artwork rights.
+The companion has no network telemetry or automatic chat/addon-message sending.
+No extracted Blizzard texture assets are bundled. The screenshots show gameplay;
+all third-party artwork retains its original rights.
 
 These characteristics are consistent with the published addon guidelines.
 Blizzard can still restrict APIs or disable addon behavior, and performance
@@ -40,5 +39,5 @@ Primary GPL texts and guidance:
 https://www.gnu.org/licenses/gpl-3.0.html
 https://www.gnu.org/licenses/gpl-faq.html#TranslateCode
 
-Local private working-tree history, saved variables and personalized macro
-imports are excluded. The export and install archive are checked before upload.
+The release contains addon code and documentation, without account saves or
+personal macro imports.

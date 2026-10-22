@@ -1,13 +1,12 @@
 # Aurums Polestar Planner
 
-An **unofficial, free companion addon for Polestar on WoW Forever**: Aurum's
-in-game Lua adaptation of the original Polestar browser Planner, with a movable
-compact map, live guide/character information and optional Questie map markers.
+A **free companion addon for Polestar on WoW Forever**. I adapted Polestar's
+browser Planner into an in-game Lua window, with a movable compact map,
+live guide and character information, and optional Questie markers.
 
-**Credit for the original Planner goes to Fitz and the Polestar authors.**
-Their GPL-licensed Planner design, UI, map and widget work are the foundation
-of this adaptation. This is a separate community addon, not an official Polestar
-release or a replacement for Polestar's guide engine.
+**Fitz and the Polestar authors created the original Planner.** This addon builds
+on their work and is an independent community adaptation. Polestar still handles
+the guide engine and progression.
 
 ## Screenshots
 
@@ -23,11 +22,8 @@ Compact map zoomed out:
 
 ![Compact map showing a wider Eastern Kingdoms view](docs/images/compact-map-wide.png)
 
-These user-supplied screenshots show the working private setup with **OpenMap
-artwork**. The public release uses separately installed OpenMap for that
-appearance; the basic client terrain fallback does not have the same styling.
-The example character and quest state are part of the screenshots, not bundled
-saved-variable data.
+This is my setup with **OpenMap**. Install OpenMap separately for the map
+appearance shown here; without it, the addon uses the client's terrain map.
 
 ## Download and install
 
@@ -62,7 +58,7 @@ entry points.
 
 The basic terrain map references textures already in the WoW client. **No
 extracted Blizzard map artwork or reusable texture files are bundled.**
-The README screenshots show gameplay for illustration. UI icons/fonts are read from the required Polestar installation.
+UI icons and fonts come from the required Polestar installation.
 
 For the stitched, named OpenMap appearance, install **OpenMap** separately. The
 embedded MIT renderer was adapted from
@@ -79,24 +75,20 @@ With Node.js installed, run from a source checkout:
 node tools/prepare-map-mask.cjs "/path/to/Interface/AddOns/OpenMap" "/path/to/Interface/AddOns/Polestar_Planner"
 ```
 
-Restart WoW afterwards. This command reads two map masks and writes one derived
-mask inside the specified Planner folder. It downloads nothing, changes no
-OpenMap files and does not publish the generated asset. Without that mask,
-Kalimdor uses the existing native terrain fallback. This public packaging change
-has automated coverage; it has not been visually retested in a live client.
+Restart WoW afterwards. This reads two OpenMap masks and generates the repaired
+mask inside the Planner folder. Without it, Kalimdor uses the native terrain
+fallback. The external-media setup has automated coverage but still needs
+in-game visual testing.
 
 ## Compatibility and status
 
-**Community preview 0.1.11**, based on the locally tested Planner 0.1.10
-compatibility build for Polestar 0.2.6. Polestar uses internal interfaces that
-can change; later core versions may require an adapter update. This addon is
-intended for the Forever client (`Interface: 16001`), not advertised as Retail
-or Midnight compatible.
+**Community preview 0.1.11**, targeting **Polestar 0.2.6** and the Forever client
+(`Interface: 16001`). Later Polestar versions may need an adapter update.
+Retail and Midnight compatibility is not supported.
 
-The original full and compact views were tested in game privately. Public
-packaging removes the personal macro-import tools and externally sourced media;
-it does not contain character macros, account data or saved settings. See
-[VALIDATION.md](VALIDATION.md) for the checks actually run.
+I've used the full Planner and compact map in game. The release also passes
+**195 automated tests**. The separate OpenMap asset setup still needs in-game
+visual testing; see [VALIDATION.md](VALIDATION.md) for coverage and limitations.
 
 ## Credits and license
 

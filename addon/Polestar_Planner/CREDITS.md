@@ -5,16 +5,12 @@
 Original work: **Fitz and The Polestar authors**, Copyright (c) 2026.
 Source: https://github.com/fitzforge/polestar
 
-Polestar created the original browser-based Planner. This project adapts that
-Planner into an in-game Lua companion with a full dashboard, movable compact
-map and optional Questie overlays. It must not be presented as an original
-Planner invented by this project's maintainer or as an official Polestar release.
+Fitz and the Polestar authors created the original browser-based Planner.
+I adapted it into an in-game Lua companion with a full dashboard, movable
+compact map and optional Questie overlays. This is an independent adaptation.
 
-The initial UI/map/widget extraction came through the local viewer adaptation
-at commit `8294ca91bc89f310bffaaf3cfb392c85f441598d`. This is a provenance
-identifier for a historical local adaptation, not a required public checkout.
-The dependency adapter was updated for stock Polestar 0.2.6. The public release
-is a fresh source export, not a publication of the private project's Git history.
+The UI, map and widget adaptation builds on Polestar's GPL-licensed source.
+The dependency adapter targets stock Polestar 0.2.6.
 
 **Modifications by AurumTitanos, 2026:** in-game Lua dashboard and compact map,
 independent namespace/preferences/lifecycle, Polestar read adapter, optional
@@ -61,8 +57,7 @@ separate addons. The GPL does not grant rights to Blizzard's trademarks/artwork.
 
 ## Screenshots
 
-The maintainer supplied the three gameplay screenshots for publication. They
-show the original private setup with OpenMap artwork. World of Warcraft game
+The screenshots show my Planner setup with OpenMap. World of Warcraft game
 art remains copyright Blizzard Entertainment; no ownership of it is claimed
 and it is not relicensed under GPL/MIT. Screenshots are documentation, not
 reusable texture assets supplied to the addon.

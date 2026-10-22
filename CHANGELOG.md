@@ -1,15 +1,18 @@
 # Changelog
 
-## 0.1.11 — 2026-10-22 — first public community preview
+## Documentation update — 2026-10-22
 
-Based on the private 0.1.10 companion tested with Polestar 0.2.6. Publishes the
-in-game Lua Planner and movable compact map with optional Questie integration.
-Credits Fitz and the Polestar authors for the original browser Planner.
+Rewrote the README, credits and release description in my voice. No addon
+behavior has changed; the original 0.1.11 download remains unchanged.
 
-The public export removes the one-off personal macro import, reads UI media
-from the required Polestar installation, and reads optional stitched art from
-an installed OpenMap copy. It ships no game-art binaries. An optional local
-island-mask generator preserves the detailed Kalimdor/Teldrassil repair without
-publishing the derived artwork. Native terrain remains the fallback.
+## 0.1.11 — 2026-10-22 — first community preview
 
-This source export does not modify an existing user's installed addon or saves.
+My in-game Lua adaptation of Polestar's browser Planner, with a movable compact
+map and optional Questie overlays. Targets Polestar 0.2.6.
+
+UI media comes from Polestar. Stitched map artwork comes from a separately
+installed OpenMap copy, with an optional local island-mask repair for detailed
+Kalimdor/Teldrassil views. Native terrain is available as a fallback.
+
+Thanks to Fitz and the Polestar authors for the original Planner, and to the
+OpenMap and Shortest Path Forever contributors whose work this builds on.
